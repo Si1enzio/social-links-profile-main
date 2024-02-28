@@ -14,11 +14,7 @@ body {
     text-align: center;
     font-size: 14px;
     background-image: linear-gradient(to left top, #2e122d, #2d1735, #2a1c3d, #252145, #1d264c, #102849, #042945, #00293f, #00242e, #051d1e, #091612, #090b09);
-/* img {
-    width:100%;
-    border-radius:10px;
-
-} */
+} 
 
   
 .card {
@@ -37,7 +33,7 @@ body {
     width: 29%;
     height: auto;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
   }
   
   /* .card-content {
@@ -45,7 +41,7 @@ body {
   } */
 
   .card-content h1 {
-    font-family: "Inter";
+    /* font-family: "Inter"; */
     font-size: 24px;
     font-weight: 700;
     color: white;
@@ -53,7 +49,7 @@ body {
     /* line-height: 1.6; */
   }
   .card-content h2 {
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-size: 1em;
     font-weight: 600;
     color: hsl(75, 94%, 57%);
@@ -61,7 +57,7 @@ body {
     /* line-height: 1.6; */
   }
   .card-content p {
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     color: white;
     font-size: 1em;
     font-weight: 400;
