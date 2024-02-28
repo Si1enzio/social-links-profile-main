@@ -6,7 +6,6 @@ body {
     margin: 0;
     font-family: "Inter";
     height:100vh;
-    /* background-color: hsl(0, 0%, 8%); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,8 +21,6 @@ body {
     height: 612px;
     border-radius: 10px;
     overflow: hidden;
-    /* background-color: hsl(0, 0%, 12%); */
-    /* box-shadow:0px 0px 15px hsl(212, 55%, 79%); */
     background-image: linear-gradient(to left top, #2a6639, #0d5d46, #03524d, #16474b, #253b42, #213d45, #1d3e48, #17404b, #005056, #005f53, #006c43, #187824);    flex-direction: column;
     align-items: center;
     padding: 40px;
@@ -35,29 +32,19 @@ body {
     border-radius: 50%;
     margin-bottom: 0.5em;
   }
-  
-  /* .card-content {
-    background-color: hsl(0, 0%, 100%);
-  } */
 
   .card-content h1 {
-    /* font-family: "Inter"; */
     font-size: 24px;
     font-weight: 700;
     color: white;
     margin-bottom: 10px;
-    /* line-height: 1.6; */
   }
   .card-content h2 {
-    /* font-family: 'Inter'; */
     font-size: 1em;
     font-weight: 600;
     color: hsl(75, 94%, 57%);
-
-    /* line-height: 1.6; */
   }
   .card-content p {
-    /* font-family: 'Inter'; */
     color: white;
     font-size: 1em;
     font-weight: 400;
@@ -77,30 +64,32 @@ body {
     font-weight: 600;
     cursor: pointer;
     color: white;
-    transition: background-color 0.3s;
+    transition: all .4s ease-in-out;
     border-radius: 10px;
     padding: 1.1em;
     margin-bottom: 1em;
-    /* background-color: hsl(0, 0%, 20%); */
     background-image: linear-gradient(to left top, #2e122d, #2d1735, #2a1c3d, #252145, #1d264c, #102849, #042945, #00293f, #00242e, #051d1e, #091612, #090b09);
+    background-size: 300% 100%;
   }
   
   .btn:hover {
-    /* background-color: hsl(75, 94%, 57%); */
     background-image: radial-gradient(circle, #3cb53c, #5cc837, #7cdb2e, #9ded20, #bfff00);
     cursor: pointer;
     color: hsl(0, 0%, 20%);
-    transition: background-color 0.9s, text-transform 0.9s;
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
     text-transform: uppercase;
   }
   
   /* Add focus state if needed */
   .btn:focus {
-    outline: none; /* Remove default focus outline */
+    outline: none; 
     background-image: radial-gradient(circle, #3cb53c, #5cc837, #7cdb2e, #9ded20, #bfff00);
     cursor: pointer;
     color: hsl(0, 0%, 20%);
-    transition: background-color 0.9s, text-transform 0.9s;
+    transition: all .4s ease-in-out;
     text-transform: uppercase;
   }
+  
+
   
