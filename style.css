@@ -65,7 +65,7 @@ body {
     margin-bottom: 24px;
   }
 
-  .section {
+  .btn {
     width: 100%;
     height: auto;
     display: flex;
@@ -85,7 +85,7 @@ body {
     background-image: linear-gradient(to left top, #2e122d, #2d1735, #2a1c3d, #252145, #1d264c, #102849, #042945, #00293f, #00242e, #051d1e, #091612, #090b09);
   }
   
-  .section:hover {
+  .btn:hover {
     /* background-color: hsl(75, 94%, 57%); */
     background-image: radial-gradient(circle, #3cb53c, #5cc837, #7cdb2e, #9ded20, #bfff00);
     cursor: pointer;
@@ -95,7 +95,7 @@ body {
   }
   
   /* Add focus state if needed */
-  .section:focus {
+  .btn:focus {
     outline: none; /* Remove default focus outline */
     background-image: radial-gradient(circle, #3cb53c, #5cc837, #7cdb2e, #9ded20, #bfff00);
     cursor: pointer;
