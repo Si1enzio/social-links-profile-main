@@ -13,6 +13,8 @@ body {
     text-align: center;
     font-size: 14px;
     background-image: linear-gradient(to left top, #2e122d, #2d1735, #2a1c3d, #252145, #1d264c, #102849, #042945, #00293f, #00242e, #051d1e, #091612, #090b09);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
 } 
 
   
@@ -21,9 +23,23 @@ body {
     height: 612px;
     border-radius: 10px;
     overflow: hidden;
-    background-image: linear-gradient(to left top, #2a6639, #0d5d46, #03524d, #16474b, #253b42, #213d45, #1d3e48, #17404b, #005056, #005f53, #006c43, #187824);    flex-direction: column;
     align-items: center;
     padding: 40px;
+    background-image: linear-gradient(to left top, #2a6639, #0d5d46, #03524d, #16474b, #253b42, #213d45, #1d3e48, #17404b, #005056, #005f53, #006c43, #187824);    flex-direction: column;
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
   
   .card-image {
